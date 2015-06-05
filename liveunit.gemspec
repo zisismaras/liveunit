@@ -11,9 +11,10 @@ and the github repo.
 EOF
 
   s.files       = `git ls-files`.split("\n")
-  s.add_development_dependency 'rspec', '~> 3.2.0'
+  s.add_development_dependency 'rspec', '~> 3.2', '>= 3.2.0'
   s.add_runtime_dependency 'after_do', '~> 0.3.1'
-  s.add_runtime_dependency 'minitest', '~> 5.7.0'
+  s.add_runtime_dependency 'minitest', '~> 5.7', '>= 5.7.0'
+
 
   s.authors = ["Zisis Maras"]
   s.email = 'contact@zisismaras.me'

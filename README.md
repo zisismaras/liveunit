@@ -1,7 +1,7 @@
 # LiveUnit
 
 Example implementation to test my experiment on live unit testing.  
-Check the blog post here.  
+Check the blog post [here](http://zisismaras.me/general/2015/05/01/exploring-live-unit-tests.html).  
 
 ##Installing
 ```ruby
@@ -88,6 +88,6 @@ end
 then just pass it to the evaluate_me method : `evaluate_me(MyReporter)`  
 
 ## Final Notice
-Make sure you also read the blog post if you are interested.  
+Make sure you also read the [blog post](http://zisismaras.me/general/2015/05/01/exploring-live-unit-tests.html) if you are interested.  
 This is not meant to be used in anything serious(it can't anyway)  
 It is just an experimental testing tool and will be probably die soon.
